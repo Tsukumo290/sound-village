@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+  font-family: serif;
+}
+* a {
+  text-decoration: none;
+}
+
+/*ヘッダーのCSS*/
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 330px;
+  height: 90px;
+  width: 100vw;
+  border-bottom: 1px solid #CCCCCC;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.logo {
+  height: 80px;
+  width: 160px;
+  margin-right: 60px;
+}
+.header-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.header-menu a{
+
+  color: black;
+}
+.header-menu li{
+  margin-right: 30px;
+}
+.trial {
+  line-height: 50px;
+  padding: 0em 1em;
+  background: #648698;
+  color: white;
+  border-radius: 15px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.mail-icon {
+  height: 18px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+.inquiry {
+  line-height: 50px;
+  padding: 0em 1em;
+  background: #e6775b;
+  border-radius: 15px;
+  font-size: 15px;
+}
+.inquiry a {
+  color: white;
+}
+
+/*トップページのコンテンツのCSS*/
+.sample {
+  padding: 90px;
+  font-size: 21px;
+  text-align: center;
+  display: block;
+}
+.text {
+  text-align: left;
+  display: inline-block;
+  line-height: 40px;
+}
+.sukima {
+  height: 1000px;
+  background: #efefef;
+}
+#money {
+  padding: 90px;
+}
+.contents {
+  width: 100vw;
+}
+
+/*フォームのCSS*/
+.contact-contents {
+  padding-top: 140px;
+  background: #efefef;
+  height: calc(100vh - 60px);
+  width: 100vw;
+}
+.contact-form {
+  height: 700px;
+  width: 670px;
+  background-color: white;
+  border: 1px solid #CCCCCC;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.form-title {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 21px;
+}
+.form {
+  width: 400px;
+  height: 600px;
+  margin: 0 auto;
+}
+.form input {
+  border-left: white;
+  border-top: white;
+  border-right: white;
+  border-bottom: 1px solid #CCCCCC;
+  height: 55px;
+  width: 400px;
+  font-size: 16px;
+  padding: 0 10px;
+}
+.form textarea {
+  border-left: white;
+  border-top: white;
+  border-right: white;
+  border-bottom: 1px solid #CCCCCC;
+  width: 400px;
+  height: 180px;
+  font-size: 16px;
+  padding: 15px 10px;
+}
+.form-submit {
+  width: 100px;
+  margin: 0 auto;
+  margin-top: 25px;
+}
+.submit {
+  height: 45px;
+  width: 100px;
+  background-color: white;
+  border: 1px solid #CCCCCC;
+  border-radius: 10px;
+}
+
+
+.footer {
+  height: 60px;
+  width: 100vw;
+  background: white;
+  border-top: 1px solid #CCCCCC;
+}
