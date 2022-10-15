@@ -61,6 +61,9 @@
 .inquiry a {
   color: white;
 }
+.trial a {
+  color: white;
+}
 
 /*トップページのコンテンツのCSS*/
 .sample {
