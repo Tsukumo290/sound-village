@@ -156,3 +156,11 @@
   background: white;
   border-top: 1px solid #CCCCCC;
 }
+
+/*体験レッスンページのCSS*/
+.trial-contents {
+  height: 1200px;
+}
+.trial-form-area {
+  height: 960px;
+}
