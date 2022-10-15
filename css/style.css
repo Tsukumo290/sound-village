@@ -174,7 +174,7 @@
 .check {
   position: fixed;
   top: 150px;
-  left: 1220px;
+  left: 1210px;
 }
 .check-title {
   margin-bottom: 20px;
@@ -185,4 +185,7 @@
 }
 .check-list li {
   margin-bottom: 15px;
+}
+.link {
+  text-decoration: underline;
 }
