@@ -121,7 +121,7 @@
   border-top: white;
   border-right: white;
   border-bottom: 1px solid #CCCCCC;
-  height: 55px;
+  height: 60px;
   width: 400px;
   font-size: 16px;
   padding: 0 10px;
@@ -162,5 +162,5 @@
   height: 1200px;
 }
 .trial-form-area {
-  height: 960px;
+  height: 1000px;
 }
