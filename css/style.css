@@ -161,7 +161,12 @@
 
 /*体験レッスンページのCSS*/
 .trial-contents {
-  height: 1186px;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+  padding-bottom: 48px;
+}
+.trial-contents::-webkit-scrollbar{
+  display: none;
 }
 .trial-form-area {
   height: 998px;
