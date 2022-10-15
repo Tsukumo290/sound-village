@@ -89,13 +89,13 @@
 }
 
 /*フォームのCSS*/
-.contact-contents {
+.form-contents {
   padding-top: 140px;
   background: #efefef;
   height: calc(100vh - 60px);
   width: 100vw;
 }
-.contact-form {
+.form-area {
   height: 700px;
   width: 670px;
   background-color: white;
