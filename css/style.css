@@ -96,7 +96,7 @@
   width: 100vw;
 }
 .form-area {
-  height: 700px;
+  height: 698px;
   width: 670px;
   background-color: white;
   border: 1px solid #CCCCCC;
@@ -159,8 +159,8 @@
 
 /*体験レッスンページのCSS*/
 .trial-contents {
-  height: 1200px;
+  height: 1190px;
 }
 .trial-form-area {
-  height: 1000px;
+  height: 1002px;
 }
