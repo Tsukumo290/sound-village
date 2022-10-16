@@ -67,6 +67,18 @@
   color: white;
 }
 
+/*フッターのCSS*/
+.footer {
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  font-size: 15px;
+}
+.footer-address {
+  margin-right: 40px;
+  font-size: 14px;
+}
+
 /*トップページのコンテンツのCSS*/
 .sample {
   padding: 90px;
