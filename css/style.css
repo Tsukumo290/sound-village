@@ -197,3 +197,30 @@
 .link {
   text-decoration: underline;
 }
+
+/*プライバシーポリシーのページのCSS*/
+.privacy-contents {
+  background-color: #efefef;
+  height: calc(100vh - 60px);
+  overflow: scroll;
+  padding-bottom: 48px;
+  padding-top: 140px;
+}
+.privacy-contents::-webkit-scrollbar{
+  display: none;
+}
+.privacy-contents-area {
+  height: 800px;
+  width: 670px;
+  background-color: white;
+  margin: 0 auto;
+  border: 1px solid #CCCCCC;
+  border-radius: 15px;
+  padding: 30px;
+}
+.privacy-title {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 21px; 
+}
