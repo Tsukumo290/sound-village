@@ -226,5 +226,9 @@
 }
 .privacy-text-title {
   font-size: 18px;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
+}
+.privacy-text li {
+  line-height: 18px;
+  margin-bottom: 10px;
 }
