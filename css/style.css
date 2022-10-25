@@ -23,6 +23,7 @@
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 .logo {
   height: 80px;
@@ -91,6 +92,7 @@
   width: 100%;
   height: calc(100vh - 90px);
   object-fit: cover;
+  opacity: 0.5;
 }
 
 .sample {
