@@ -84,6 +84,15 @@
 }
 
 /*トップページのコンテンツのCSS*/
+.class-images {
+  padding-top: 90px;
+}
+.class-image {
+  width: 100%;
+  height: calc(100vh - 90px);
+  object-fit: cover;
+}
+
 .sample {
   padding: 90px;
   font-size: 21px;
