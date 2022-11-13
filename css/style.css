@@ -94,9 +94,18 @@
   height: calc(100vh - 30px);
   object-fit: cover;
   opacity: 0.5;
+  vertical-align: bottom;
+}
+.class-intro {
+  height: 90px;
+  width: 100%;
+  padding: 30px 130px;
+  font-size: 30px;
+  background-color: #BC9692;
+  color: white;
 }
 
-.sample {
+.class-intro-area {
   padding: 90px;
   font-size: 21px;
   text-align: center;
@@ -112,13 +121,6 @@
 }
 .contents {
   width: 100vw;
-}
-.class-intro {
-  color: white;
-  background-color: #BC9692;
-  padding: 0.8em;
-  border-radius: 15px;
-  font-size: 19px;
 }
 
 /*フォームのCSS*/
