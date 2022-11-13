@@ -109,7 +109,7 @@
   color: white;
 }
 .text-area {
-  padding: 90px;
+  padding-top: 90px;
   font-size: 21px;
   text-align: center;
   display: block;
@@ -118,6 +118,9 @@
   text-align: left;
   display: inline-block;
   line-height: 40px;
+}
+#lesson-guide-space {
+  height: 90px;
 }
 .lesson-guide {
   height: 90px;
@@ -129,6 +132,9 @@
 }
 #message {
   padding: 90px;
+}
+.guide {
+  height: 1000px;
 }
 
 /*フォームのCSS*/
