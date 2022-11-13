@@ -51,7 +51,7 @@
   border-radius: 15px;
   margin-left: 60px;
   font-size: 15px;
-  border: 0.5px solid #CCCCCC;
+  border: 0.3px solid #CCCCCC;
 }
 .trial a {
   color: white;
@@ -62,7 +62,7 @@
   background: #d6bcab;
   border-radius: 15px;
   font-size: 15px;
-  border: 0.5px solid #CCCCCC;
+  border: 0.1px solid #CCCCCC;
 }
 .inquiry a {
   color: white;
@@ -121,7 +121,7 @@
 /*フォームのCSS*/
 .form-contents {
   padding-top: 140px;
-  background: #efefef;
+  background: #f7f7f7;
   height: calc(100vh - 60px);
   width: 100vw;
 }
@@ -212,7 +212,7 @@
 
 /*プライバシーポリシーのページのCSS*/
 .privacy-contents {
-  background-color: #efefef;
+  background-color: #f7f7f7;
   height: calc(100vh - 60px);
   overflow: scroll;
   padding-bottom: 48px;
