@@ -97,7 +97,7 @@
   width: 100%;
   height: calc(100vh - 30px);
   object-fit: cover;
-  opacity: 0.5;
+  opacity: 0.8;
   vertical-align: bottom;
 }
 .class-intro {
@@ -131,16 +131,19 @@
   color: white;
 }
 .course1 {
-  border-bottom: double 4px red;
+  border-bottom: double 4px #E57F75;
   padding-bottom: 8px;
+  font-size: 23px;
 }
 .course2 {
-  border-bottom: double 4px yellow;
+  border-bottom: double 4px #BC9692;
   padding-bottom: 8px;
+  font-size: 23px;
 }
 .course3 {
-  border-bottom: double 4px yellowgreen;
+  border-bottom: double 4px #B8B1AB;
   padding-bottom: 8px;
+  font-size: 23px;
 }
 #message {
   padding: 90px;
