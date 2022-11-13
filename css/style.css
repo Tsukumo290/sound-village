@@ -107,15 +107,18 @@
   display: inline-block;
   line-height: 40px;
 }
-.sukima {
-  height: 1000px;
-  background: #efefef;
-}
 #message {
   padding: 90px;
 }
 .contents {
   width: 100vw;
+}
+.class-intro {
+  color: white;
+  background-color: #BC9692;
+  padding: 0.8em;
+  border-radius: 15px;
+  font-size: 19px;
 }
 
 /*フォームのCSS*/
