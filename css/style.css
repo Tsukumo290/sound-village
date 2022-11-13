@@ -22,7 +22,7 @@
   height: 90px;
   width: 100vw;
   border-bottom: 1px solid #CCCCCC;
-  background-color: white;
+  background-color: #ffffff;
   position: fixed;
   top: 0;
   left: 0;
@@ -51,6 +51,7 @@
   border-radius: 15px;
   margin-left: 60px;
   font-size: 15px;
+  border: 0.5px solid #CCCCCC;
 }
 .trial a {
   color: white;
@@ -58,9 +59,10 @@
 .inquiry {
   line-height: 50px;
   padding: 0em 1em;
-  background: #D7BFAF;
+  background: #d6bcab;
   border-radius: 15px;
   font-size: 15px;
+  border: 0.5px solid #CCCCCC;
 }
 .inquiry a {
   color: white;
@@ -76,6 +78,7 @@
   align-items: center;
   font-size: 13px;
   padding-right: 20px;
+  background-color: #ffffff;
 }
 .footer-address {
   margin-right: 20px;
@@ -84,11 +87,11 @@
 
 /*トップページのコンテンツのCSS*/
 .class-images {
-  padding-top: 90px;
+  padding-top: 30px;
 }
 .class-image {
   width: 100%;
-  height: calc(100vh - 90px);
+  height: calc(100vh - 30px);
   object-fit: cover;
   opacity: 0.5;
 }
