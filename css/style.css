@@ -145,8 +145,16 @@
   padding-bottom: 8px;
   font-size: 23px;
 }
-#message {
-  padding: 90px;
+#instructor-intro-space {
+  height: 90px;
+}
+.instructor-intro {
+  height: 90px;
+  width: 100%;
+  padding: 32px 110px;
+  font-size: 26px;
+  background-color: #d6bcab;
+  color: white;
 }
 .guide {
   height: 1000px;
