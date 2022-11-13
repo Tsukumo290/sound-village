@@ -103,12 +103,12 @@
 .class-intro {
   height: 90px;
   width: 100%;
-  padding: 30px 130px;
-  font-size: 30px;
+  padding: 31px 130px;
+  font-size: 28px;
   background-color: #BC9692;
   color: white;
 }
-.class-intro-area {
+.text-area {
   padding: 90px;
   font-size: 21px;
   text-align: center;
@@ -118,6 +118,14 @@
   text-align: left;
   display: inline-block;
   line-height: 40px;
+}
+.lesson-guide {
+  height: 90px;
+  width: 100%;
+  padding: 32px 110px;
+  font-size: 26px;
+  background-color: #d6bcab;
+  color: white;
 }
 #message {
   padding: 90px;
