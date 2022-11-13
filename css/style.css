@@ -12,14 +12,13 @@
 }
 
 /*ヘッダーのCSS*/
-.soundvillage {
-  font-size: 24px;
-  margin-right: 150px;
+.logo {
+  font-size: 23px;
+  margin-right: 530px;
 }
 .header {
   display: flex;
   align-items: center;
-  padding-left: 250px;
   height: 90px;
   width: 100vw;
   border-bottom: 1px solid #CCCCCC;
@@ -28,11 +27,7 @@
   top: 0;
   left: 0;
   z-index: 1;
-}
-.logo {
-  height: 80px;
-  width: 160px;
-  margin-right: 220px;
+  padding-left: 70px;
 }
 .header-menu {
   display: flex;
@@ -52,9 +47,9 @@
 .trial {
   line-height: 50px;
   padding: 0em 1em;
-  background: #5c7f91;
+  background: #BC9692;
   border-radius: 15px;
-  margin-left: 30px;
+  margin-left: 60px;
   font-size: 15px;
 }
 .trial a {
@@ -63,7 +58,7 @@
 .inquiry {
   line-height: 50px;
   padding: 0em 1em;
-  background: #eb7254;
+  background: #D7BFAF;
   border-radius: 15px;
   font-size: 15px;
 }
