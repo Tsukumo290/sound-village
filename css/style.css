@@ -12,10 +12,14 @@
 }
 
 /*ヘッダーのCSS*/
+.soundvillage {
+  font-size: 24px;
+  margin-right: 150px;
+}
 .header {
   display: flex;
   align-items: center;
-  padding-left: 330px;
+  padding-left: 250px;
   height: 90px;
   width: 100vw;
   border-bottom: 1px solid #CCCCCC;
@@ -28,7 +32,7 @@
 .logo {
   height: 80px;
   width: 160px;
-  margin-right: 75px;
+  margin-right: 220px;
 }
 .header-menu {
   display: flex;
@@ -40,31 +44,30 @@
 .header-menu li{
   margin-right: 30px;
 }
-.trial {
-  line-height: 45px;
-  padding: 0em 1em;
-  background: #5c7f91;
-  color: white;
-  border-radius: 15px;
-  margin-left: 30px;
-  font-size: 15px;
-}
 .mail-icon {
   height: 18px;
   vertical-align: middle;
   margin-right: 5px;
 }
+.trial {
+  line-height: 50px;
+  padding: 0em 1em;
+  background: #5c7f91;
+  border-radius: 15px;
+  margin-left: 30px;
+  font-size: 15px;
+}
+.trial a {
+  color: white;
+}
 .inquiry {
-  line-height: 45px;
+  line-height: 50px;
   padding: 0em 1em;
   background: #eb7254;
   border-radius: 15px;
   font-size: 15px;
 }
 .inquiry a {
-  color: white;
-}
-.trial a {
   color: white;
 }
 
