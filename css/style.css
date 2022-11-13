@@ -130,6 +130,18 @@
   background-color: #d6bcab;
   color: white;
 }
+.course1 {
+  border-bottom: double 4px red;
+  padding-bottom: 8px;
+}
+.course2 {
+  border-bottom: double 4px yellow;
+  padding-bottom: 8px;
+}
+.course3 {
+  border-bottom: double 4px yellowgreen;
+  padding-bottom: 8px;
+}
 #message {
   padding: 90px;
 }
