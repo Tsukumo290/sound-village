@@ -110,11 +110,11 @@
 }
 .text-area {
   padding-top: 90px;
-  font-size: 21px;
   text-align: center;
   display: block;
 }
 .text {
+  font-size: 21px;
   text-align: left;
   display: inline-block;
   line-height: 40px;
@@ -161,6 +161,18 @@
   vertical-align: middle;
   padding-bottom: 5px;
 }
+.instructor-area {
+  display: flex;
+  padding-top: 90px;
+  
+}
+.instructor-img {
+  height: 500px;
+}
+.instructor-right {
+  
+}
+
 .guide {
   height: 1000px;
 }
