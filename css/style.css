@@ -164,10 +164,13 @@
 .instructor-area {
   display: flex;
   padding-top: 90px;
-  
+  width:830px;
+  margin: 0 auto;
 }
 .instructor-img {
-  height: 500px;
+  height: 400px;
+  margin-right: 45px;
+  border-radius: 10px;
 }
 .instructor-right {
   
