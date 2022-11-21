@@ -172,10 +172,17 @@
   margin-right: 45px;
   border-radius: 10px;
 }
-.instructor-right {
-  
+#news-space {
+  height: 90px;
 }
-
+.news {
+  height: 90px;
+  width: 100%;
+  padding: 32px 110px;
+  font-size: 26px;
+  background-color: #d6bcab;
+  color: white;
+}
 .guide {
   height: 1000px;
 }
