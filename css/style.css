@@ -213,7 +213,14 @@
   color: white;
 }
 .guide {
-  height: 1000px;
+  margin-top: 90px;
+  height: 600px;
+  background-color: #d6bcab;
+  color: white;
+}
+.top-footer {
+  background-color: #BC9692;
+  color: white;
 }
 
 /*フォームのCSS*/
