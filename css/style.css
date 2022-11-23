@@ -86,6 +86,40 @@
 }
 
 /*トップページのコンテンツのCSS*/
+.container {
+	position: relative;
+	max-width: 100%;
+	height: 400px;
+}
+
+.image {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	animation: change-img-anim 30s infinite;
+  width: 100%;
+  height: calc(100vh - 30px);
+  object-fit: cover;
+  opacity: 0.8;
+  vertical-align: bottom;
+}
+
+.image:nth-of-type(1) {
+	animation-delay: 0s;
+}
+.image:nth-of-type(2) {
+	animation-delay: 10s;
+}
+.image:nth-of-type(3) {
+	animation-delay: 20s;
+}
+
+@keyframes change-img-anim {
+	0%{ opacity: 0;}
+	10%{ opacity: 1;}
+	90%{ opacity: 1;}
+	100%{ opacity: 0;}
+}
 .contents {
   width: 100vw;
 }
@@ -93,14 +127,9 @@
 .class-images {
   padding-top: 30px;
 }
-.class-image {
-  width: 100%;
-  height: calc(100vh - 30px);
-  object-fit: cover;
-  opacity: 0.8;
-  vertical-align: bottom;
-}
+
 .class-intro {
+  margin-top: 516px;
   height: 90px;
   width: 100%;
   padding: 31px 130px;
