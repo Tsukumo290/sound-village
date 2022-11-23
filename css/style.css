@@ -215,11 +215,15 @@
 .guide {
   margin-top: 90px;
   height: 600px;
-  background-color: #d6bcab;
+  background-color: #BC9692;
   color: white;
+  display: flex;
+}
+.piano-img {
+  height: 300px;
 }
 .top-footer {
-  background-color: #BC9692;
+  background-color: #927a6b;
   color: white;
 }
 
