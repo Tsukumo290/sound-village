@@ -217,10 +217,29 @@
   height: 600px;
   background-color: #BC9692;
   color: white;
+}
+.icon-area {
   display: flex;
+  width: 1000px;
+  margin: 0 auto;
 }
 .piano-img {
   height: 300px;
+}
+.icon-img {
+  height: 60px;
+  margin-right: 10px;
+  margin-top: 120px;
+}
+.border-line {
+  border-top: 2px solid white;
+  width: 1000px;
+  height: 50px;
+  margin: 0 auto;
+}
+.under {
+  text-align: center;
+  font-size: 21px;
 }
 .top-footer {
   background-color: #927a6b;
