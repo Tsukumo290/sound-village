@@ -212,6 +212,9 @@
   background-color: #d6bcab;
   color: white;
 }
+.circle {
+  color: orange;
+}
 .guide {
   margin-top: 90px;
   height: 600px;
