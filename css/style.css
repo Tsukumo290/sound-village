@@ -13,12 +13,12 @@
 
 /*ヘッダーのCSS*/
 .logo {
-  font-size: 23px;
-  margin-right: 530px;
+  font-size: 18px;
 }
 .header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   height: 90px;
   width: 100vw;
   border-bottom: 1px solid #CCCCCC;
@@ -27,8 +27,9 @@
   top: 0;
   left: 0;
   z-index: 1;
-  padding-left: 70px;
+  padding: 0 90px;
 }
+
 .header-menu {
   display: flex;
   align-items: center;
@@ -112,7 +113,7 @@
   color: white;
 }
 .text-area {
-  padding-top: 90px;
+  padding: 140px 0 50px;
   text-align: center;
   display: block;
 }
@@ -154,10 +155,13 @@
 .instructor-intro {
   height: 90px;
   width: 100%;
-  padding: 32px 110px;
+  padding: 32px 110px 0;
   font-size: 26px;
   background-color: #d6bcab;
   color: white;
+}
+.course {
+  padding-bottom: 50px;
 }
 .music-icon {
   height: 30px;
@@ -166,7 +170,7 @@
 }
 .instructor-area {
   display: flex;
-  padding-top: 90px;
+  padding: 140px 0 50px;
   width:830px;
   margin: 0 auto;
 }
@@ -175,10 +179,10 @@
   margin-right: 45px;
   border-radius: 10px;
 }
-#news-space {
+#inquiry-space {
   height: 90px;
 }
-.news {
+.inquiry {
   height: 90px;
   width: 100%;
   padding: 32px 110px;
@@ -186,166 +190,56 @@
   background-color: #d6bcab;
   color: white;
 }
-.circle {
-  color: orange;
+.inquiry-text {
+  width: 510px;
+  margin: 0 auto;
 }
-.guide {
-  margin-top: 90px;
-  height: 600px;
-  background-color: #BC9692;
-  color: white;
+.inquiry-area {
+  padding: 110px;
 }
-.icon-area {
+.inquiry-guide {
+  margin-bottom: 70px;
+}
+.method {
   display: flex;
   width: 1000px;
   margin: 0 auto;
 }
-.piano-img {
-  height: 300px;
+.line {
+  padding: 0.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  color: #06c755;/*文字色*/
+  background: #FFF;
+  border: solid 3px #06c755;/*線*/
+  border-radius: 10px;/*角の丸み*/
+  width: 400px;
+  margin-right: 200px;
 }
-.icon-img {
-  height: 60px;
-  margin-right: 10px;
-  margin-top: 120px;
-}
-.border-line {
-  border-top: 2px solid white;
-  width: 1000px;
-  height: 50px;
-  margin: 0 auto;
-}
-.under {
+.line p {
+  margin: 0; 
+  padding: 0;
   text-align: center;
-  font-size: 21px;
+}
+.phone {
+  padding: 1.5em 1em;
+  margin: 2em 0;
+  font-weight: bold;
+  color: #BC9692;/*文字色*/
+  background: #FFF;
+  border: solid 3px #BC9692;/*線*/
+  border-radius: 10px;/*角の丸み*/
+  width: 400px;
+}
+.phone p {
+  margin: 0; 
+  padding: 0;
+  text-align: center;
+}
+.number {
+  font-size: 28px;
 }
 .top-footer {
   background-color: #927a6b;
   color: white;
-}
-
-/*フォームのCSS*/
-.form-contents {
-  padding-top: 140px;
-  background: #f7f7f7;
-  height: calc(100vh - 60px);
-  width: 100vw;
-}
-.form-area {
-  height: 698px;
-  width: 670px;
-  background-color: white;
-  border: 1px solid #CCCCCC;
-  margin: 0 auto;
-  border-radius: 15px;
-  padding: 30px;
-}
-
-.form-title {
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-  font-size: 21px;
-}
-.form {
-  width: 400px;
-  height: 600px;
-  margin: 0 auto;
-}
-.form input {
-  border-left: white;
-  border-top: white;
-  border-right: white;
-  border-bottom: 1px solid #CCCCCC;
-  height: 60px;
-  width: 400px;
-  font-size: 16px;
-  padding: 0 10px;
-}
-.form textarea {
-  border-left: white;
-  border-top: white;
-  border-right: white;
-  border-bottom: 1px solid #CCCCCC;
-  width: 400px;
-  height: 180px;
-  font-size: 16px;
-  padding: 15px 10px;
-}
-.form-submit {
-  width: 100px;
-  margin: 0 auto;
-  margin-top: 25px;
-}
-.submit {
-  height: 45px;
-  width: 100px;
-  background-color: white;
-  border: 1px solid #CCCCCC;
-  border-radius: 10px;
-}
-
-/*体験レッスンページのCSS*/
-.trial-contents {
-  height: calc(100vh - 60px);
-  overflow: scroll;
-  padding-bottom: 48px;
-}
-.trial-contents::-webkit-scrollbar{
-  display: none;
-}
-.trial-form-area {
-  height: 998px;
-}
-.check {
-  position: fixed;
-  top: 150px;
-  left: 1210px;
-}
-.check-title {
-  margin-bottom: 20px;
-  border-bottom: 1px solid gray;
-  width: 304px;
-  font-size: 18px;
-  padding-bottom: 15px;
-}
-.check-list li {
-  margin-bottom: 15px;
-}
-.link {
-  text-decoration: underline;
-}
-
-/*プライバシーポリシーのページのCSS*/
-.privacy-contents {
-  background-color: #f7f7f7;
-  height: calc(100vh - 60px);
-  overflow: scroll;
-  padding-bottom: 48px;
-  padding-top: 140px;
-}
-.privacy-contents::-webkit-scrollbar{
-  display: none;
-}
-.privacy-contents-area {
-  height: 800px;
-  width: 670px;
-  background-color: white;
-  margin: 0 auto;
-  border: 1px solid #CCCCCC;
-  border-radius: 15px;
-  padding: 30px;
-}
-.privacy-title {
-  height: 100px;
-  line-height: 100px;
-  text-align: center;
-  font-size: 21px; 
-}
-.privacy-text-title {
-  font-size: 18px;
-  margin-bottom: 20px;
-}
-.privacy-text li {
-  line-height: 18px;
-  margin-bottom: 10px;
 }
