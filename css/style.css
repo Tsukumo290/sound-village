@@ -39,34 +39,6 @@
 .header-menu li{
   margin-right: 30px;
 }
-.mail-icon {
-  height: 18px;
-  vertical-align: middle;
-  margin-right: 5px;
-}
-.trial {
-  line-height: 50px;
-  padding: 0em 1em;
-  background: #BC9692;
-  border-radius: 15px;
-  margin-left: 60px;
-  font-size: 15px;
-  border: 0.3px solid #CCCCCC;
-}
-.trial a {
-  color: white;
-}
-.inquiry {
-  line-height: 50px;
-  padding: 0em 1em;
-  background: #d6bcab;
-  border-radius: 15px;
-  font-size: 15px;
-  border: 0.1px solid #CCCCCC;
-}
-.inquiry a {
-  color: white;
-}
 
 /*フッターのCSS*/
 .footer {
@@ -96,11 +68,9 @@
 	position: absolute;
 	width: 100%;
 	opacity: 0;
-	animation: change-img-anim 30s infinite;
-  width: 100%;
+	animation: change-img-anim 40s infinite;
   height: calc(100vh - 30px);
   object-fit: cover;
-  opacity: 0.8;
   vertical-align: bottom;
 }
 
@@ -113,12 +83,16 @@
 .image:nth-of-type(3) {
 	animation-delay: 20s;
 }
+.image:nth-of-type(4) {
+	animation-delay: 30s;
+}
 
 @keyframes change-img-anim {
-	0%{ opacity: 0;}
-	10%{ opacity: 1;}
-	90%{ opacity: 1;}
-	100%{ opacity: 0;}
+  0%{ opacity: 0;}
+  20%{ opacity: 1;}
+  30%{ opacity: 1;}
+  35%{ opacity: 0;}
+  100%{ opacity: 0;}
 }
 .contents {
   width: 100vw;
