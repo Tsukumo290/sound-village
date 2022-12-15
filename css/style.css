@@ -14,15 +14,20 @@
 /*ヘッダーのCSS*/
 .logo {
   font-size: 18px;
-  color: #90655f;
 }
 .logo1 {
   font-size: 16px;
   padding-left: 12px;
   padding-bottom: 2px;
 }
+.text-area1 {
+  position:relative;
+}
 .piano {
-  
+  position:absolute;
+  right: 98px;
+  bottom: 0px;
+  transform: rotate( 18deg );
 }
 .header {
   display: flex;
@@ -41,11 +46,11 @@
 }
 .brown {
   color: #90655f;
-  font-size: 17px;
+  color: black;
 }
 .beige {
   color:rgb(169, 142, 125);
-  font-size: 17px;
+  color: black;
 }
 .header-menu {
   display: flex;
@@ -222,7 +227,7 @@
   display: inline-block;
   line-height: 40px;
 }
-#lesson-guide-space {
+#lesson-guide-id {
   height: 90px;
 }
 .lesson-guide {
@@ -248,7 +253,7 @@
   padding-bottom: 8px;
   font-size: 23px;
 }
-#instructor-intro-space {
+#instructor-intro-id {
   height: 90px;
 }
 .instructor-intro {
@@ -270,15 +275,16 @@
 .instructor-area {
   display: flex;
   padding: 140px 0 50px;
-  width:830px;
+  width:880px;
   margin: 0 auto;
 }
 .instructor-img {
   height: 400px;
   margin-right: 45px;
+  margin-left: 50px;
   border-radius: 10px;
 }
-#inquiry-space {
+#inquiry-id {
   height: 90px;
 }
 .inquiry {
