@@ -13,12 +13,13 @@
 
 /*ヘッダーのCSS*/
 .logo {
-  font-size: 18px;
+  font-size: 20px;
 }
 .logo1 {
-  font-size: 16px;
+  font-size: 17px;
   padding-left: 7px;
-  padding-bottom: 2px;
+  padding-bottom: 3px;
+  letter-spacing: 0.1em;
 }
 .text-area1 {
   position:relative;
@@ -41,7 +42,7 @@
   top: 0;
   left: 0;
   z-index: 1;
-  padding: 0 90px;
+  padding: 0 120px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .5);
 }
 /* ボタン本体のスタイル */
@@ -49,9 +50,6 @@
   /* ボタン要素の大きさや色 */
   position: relative;
   display: inline-block;
-
-  /* ボタンの文字の設定 */
-  letter-spacing: 0.1em;
 
   /* その他必要なスタイル */
   transition: all 0.3s ease;
@@ -73,16 +71,16 @@
 
 /* 左上のハートのスタイル */
 .heart-button::before {
-  background-image: url("../img/melody.svg");
+  background-image: url("../img/music_icon1.svg");
   top: 0;
-  left: -18px;
+  left: -14px;
 }
 
 /* 右下のハートのスタイル */
 .heart-button::after {
-  background-image: url("../img/melody.svg");
+  background-image: url("../img/music_icon2.svg");
   bottom: -14px;
-  right: -20px;
+  right: -22px;
 }
 
 /* ========= ホバー時のスタイル ======== */
@@ -128,20 +126,28 @@
   }
 }
 .brown {
-  color: #90655f;
+  color: #7d534e;
+  letter-spacing: 0.6px;
+  margin-left: 26px;
 }
 .beige {
   color:rgb(169, 137, 118);
+  margin-left: 23px;
+}
+.beige1 {
+  color:rgb(169, 137, 118);
+  letter-spacing: 0.6px;
+  margin-left: 26px;
+}
+.black {
+  color: black;
 }
 .header-menu {
   display: flex;
   align-items: center;
 }
-/*.header-menu a{
+.header-menu a {
   color: black;
-}*/
-.header-menu li{
-  margin-left: 26px;
 }
 
 /*フッターのCSS*/
@@ -340,8 +346,8 @@
 .instructor-intro {
   height: 90px;
   width: 100%;
-  padding: 32px 110px 0;
-  font-size: 26px;
+  padding: 32px 130px;
+  font-size: 28px;
   background-color: #d6bcab;
   color: white;
 }
@@ -355,12 +361,12 @@
 }
 .instructor-area {
   display: flex;
-  padding: 140px 0 50px;
-  width:880px;
+  padding: 100px 0 10px;
+  width:920px;
   margin: 0 auto;
 }
 .instructor-img {
-  height: 400px;
+  height: 480px;
   margin-right: 45px;
   margin-left: 50px;
   border-radius: 10px;
@@ -381,10 +387,10 @@
   margin: 0 auto;
 }
 .inquiry-area {
-  padding: 110px;
+  padding: 90px;
 }
 .inquiry-guide {
-  margin-bottom: 70px;
+  margin-bottom: 65px;
 }
 .method {
   display: flex;
@@ -403,7 +409,7 @@
   margin-right: 200px;
 }
 .line p {
-  margin: 0; 
+  margin: 0;
   padding: 0;
   text-align: center;
 }
@@ -424,4 +430,9 @@
 }
 .number {
   font-size: 28px;
+  text-decoration: line-through #E57F75;
+}
+.line-qr {
+  height: 200px;
+  width: 200px;
 }
