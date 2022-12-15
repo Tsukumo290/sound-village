@@ -14,6 +14,15 @@
 /*ヘッダーのCSS*/
 .logo {
   font-size: 18px;
+  color: #90655f;
+}
+.logo1 {
+  font-size: 16px;
+  padding-left: 12px;
+  padding-bottom: 2px;
+}
+.piano {
+  
 }
 .header {
   display: flex;
@@ -22,23 +31,31 @@
   height: 90px;
   width: 100vw;
   border-bottom: 1px solid #CCCCCC;
-  background-color: #ffffff;
+  background-color: white;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 1;
   padding: 0 90px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .5);
 }
-
+.brown {
+  color: #90655f;
+  font-size: 17px;
+}
+.beige {
+  color:rgb(169, 142, 125);
+  font-size: 17px;
+}
 .header-menu {
   display: flex;
   align-items: center;
 }
-.header-menu a{
+/*.header-menu a{
   color: black;
-}
+}*/
 .header-menu li{
-  margin-right: 30px;
+  margin-left: 26px;
 }
 
 /*フッターのCSS*/
@@ -51,7 +68,8 @@
   align-items: center;
   font-size: 13px;
   padding-right: 20px;
-  background-color: #ffffff;
+  background-color: #927a6b;
+  color: white;
 }
 .footer-address {
   margin-right: 20px;
@@ -116,6 +134,87 @@
   padding: 140px 0 50px;
   text-align: center;
   display: block;
+}
+.box1 {
+  position: relative;
+  margin: 2em 0;
+  padding: 3em 1em;
+  border: solid 3px #E57F75;
+  border-radius: 8px;
+  width: 1100px;
+  margin: 0 auto 140px;
+}
+.box1 .box-title1 {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  background: #FFF;
+  color: #E57F75;
+  font-weight: bold;
+}
+.box-title1 {
+  font-size: 23px;
+}
+.box1 p {
+  margin: 0; 
+  padding: 0;
+}
+.box2 {
+  position: relative;
+  margin: 2em 0;
+  padding: 3em 1em;
+  border: solid 3px #BC9692;
+  border-radius: 8px;
+  width: 1100px;
+  margin: 0 auto 140px;
+}
+.box2 .box-title2 {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  background: #FFF;
+  color: #BC9692;
+  font-weight: bold;
+}
+.box-title2 {
+  font-size: 23px;
+}
+.box2 p {
+  margin: 0; 
+  padding: 0;
+}
+.box3 {
+  position: relative;
+  margin: 2em 0;
+  padding: 3em 1em;
+  border: solid 3px #927a6b;
+  border-radius: 8px;
+  width: 1100px;
+  margin: 0 auto 140px;
+}
+.box3 .box-title3 {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  background: #FFF;
+  color: #927a6b;
+  font-weight: bold;
+}
+.box-title3 {
+  font-size: 23px;
+}
+.box3 p {
+  margin: 0; 
+  padding: 0;
 }
 .text {
   font-size: 21px;
@@ -206,7 +305,7 @@
   margin: 0 auto;
 }
 .line {
-  padding: 0.5em 1em;
+  padding: 1.5em 1em;
   margin: 2em 0;
   font-weight: bold;
   color: #06c755;/*文字色*/
@@ -238,8 +337,4 @@
 }
 .number {
   font-size: 28px;
-}
-.top-footer {
-  background-color: #927a6b;
-  color: white;
 }
