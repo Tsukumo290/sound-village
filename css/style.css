@@ -12,6 +12,7 @@
 }
 
 /*ヘッダーのCSS*/
+
 .logo {
   font-size: 20px;
 }
@@ -148,6 +149,18 @@
 }
 .header-menu a {
   color: black;
+}
+.menu2 {
+  margin-left: 14px;
+}
+.icon-area {
+  padding-left: 45px;
+}
+.icon-area2 {
+  padding-left: 55px;
+}
+.icon {
+  height: 26px;
 }
 
 /*フッターのCSS*/
