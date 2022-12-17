@@ -14,21 +14,27 @@
 /*ヘッダーのCSS*/
 
 .logo {
-  font-size: 20px;
+  font-size: 21px;
 }
 .logo1 {
-  font-size: 17px;
-  padding-left: 7px;
+  font-size: 20px;
+  padding-left: 0px;
   padding-bottom: 3px;
-  letter-spacing: 0.1em;
+  letter-spacing: 1.5px;
+  padding-top: 3px;
+  margin-right: 5px;
+}
+.logo2 {
+  padding-top: 3.5px;
 }
 .text-area1 {
   position:relative;
 }
 .piano {
   position:absolute;
-  right: 98px;
-  bottom: 0px;
+  right: 71px;
+  bottom: -30px;
+  height: 380px;
   transform: rotate( 18deg );
 }
 .header {
@@ -46,11 +52,15 @@
   padding: 0 120px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .5);
 }
+.sub-title {
+  font-size: 15px;
+}
 /* ボタン本体のスタイル */
 .heart-button {
   /* ボタン要素の大きさや色 */
   position: relative;
   display: inline-block;
+  display: flex;
 
   /* その他必要なスタイル */
   transition: all 0.3s ease;
@@ -73,15 +83,15 @@
 /* 左上のハートのスタイル */
 .heart-button::before {
   background-image: url("../img/music_icon1.svg");
-  top: 0;
-  left: -14px;
+  top: -10px;
+  left: -18px;
 }
 
 /* 右下のハートのスタイル */
 .heart-button::after {
   background-image: url("../img/music_icon2.svg");
   bottom: -14px;
-  right: -22px;
+  right: -19px;
 }
 
 /* ========= ホバー時のスタイル ======== */
@@ -139,9 +149,6 @@
   color:rgb(169, 137, 118);
   letter-spacing: 0.6px;
   margin-left: 26px;
-}
-.black {
-  color: black;
 }
 .header-menu {
   display: flex;
@@ -361,21 +368,6 @@
   background-color: #d6bcab;
   color: white;
 }
-.course1 {
-  border-bottom: double 4px #E57F75;
-  padding-bottom: 8px;
-  font-size: 23px;
-}
-.course2 {
-  border-bottom: double 4px #BC9692;
-  padding-bottom: 8px;
-  font-size: 23px;
-}
-.course3 {
-  border-bottom: double 4px #B8B1AB;
-  padding-bottom: 8px;
-  font-size: 23px;
-}
 #instructor-intro-id {
   height: 90px;
 }
@@ -468,4 +460,348 @@
 .line-qr {
   height: 200px;
   width: 200px;
+}
+@media screen and (max-width: 480px){
+
+/*ヘッダーのCSS*/
+.logo {
+  font-size: 15px;
+}
+.heart-button {
+  display: flex;
+}
+.logo1 {
+  font-size: 14.5px;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  letter-spacing: 0.5px;
+  margin-right: 6px;
+  margin-top: 2px;
+  padding-top: 0px;
+}
+.logo2 {
+  padding-top: 1px;
+  margin-top: 2px;
+}
+.sub-title {
+  font-size: 10px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  width: 100vw;
+  border-bottom: 1px solid #CCCCCC;
+  background-color: white;
+  position: static;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  padding-left: 60px;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .5);
+}
+/* ハートの共通スタイル */
+.heart-button::before,
+.heart-button::after {
+  content: "";
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 9px;
+  height: 9px;
+  position: absolute;
+  opacity: 0;
+  display: none;
+}
+.header-menu {
+  display: none;
+}
+/*トップページのコンテンツのCSS*/
+.text-area1 {
+  position:relative;
+}
+.container {
+	position: relative;
+	max-width: 100%;
+	height: 400px;
+}
+.image {
+	position: absolute;
+	width: 100%;
+	opacity: 0;
+	animation: change-img-anim 40s infinite;
+  height: 600px;
+  object-fit: cover;
+  vertical-align: bottom;
+}
+.class-images {
+  padding-top: 0px;
+}
+.class-intro {
+  margin-top: 200px;
+  height: 60px;
+  width: 100%;
+  padding: 21px 60px;
+  font-size: 16px;
+  background-color: #BC9692;
+  color: white;
+}
+.piano {
+  position:absolute;
+  right: 18px;
+  bottom: 14px;
+  transform: rotate( 18deg );
+  height: 150px;
+}
+.text-area {
+  padding: 60px;
+  text-align: center;
+  display: block;
+}
+.text {
+  font-size: 13px;
+  text-align: left;
+  display: inline-block;
+  line-height: 21px;
+}
+#instructor-intro-id {
+  height: 0px;
+}
+.instructor-intro {
+  height: 60px;
+  width: 100%;
+  padding: 21px 60px;
+  font-size: 16px;
+  background-color: #d6bcab;
+  color: white;
+}
+.instructor-area {
+  display: block;
+  padding: 60px;
+  width:100%;
+  margin: 0 auto;
+}
+.instructor-left {
+  width: 180px;
+  margin: 0 auto;
+}
+.instructor-img {
+  height: 300px;
+  width: 180px;
+  margin-right: 0px;
+  margin-left: 0px;
+  border-radius: 10px;
+}
+.instructor-right {
+  width: 100%;
+  margin: 0 auto;
+}
+.sp-text {
+  text-align: center;
+  width: 100%;
+}
+#lesson-guide-id {
+  height: 0px;
+}
+.lesson-guide {
+  height: 60px;
+  width: 100%;
+  padding: 21px 60px;
+  font-size: 16px;
+  background-color: #d6bcab;
+  color: white;
+}
+.box1 {
+  position: relative;
+  margin: 2em 0;
+  padding: 1.5em 1em;
+  border: solid 1.5px #E57F75;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0 auto 60px;
+}
+.box1 .box-title1 {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  background: #FFF;
+  color: #E57F75;
+  font-weight: bold;
+}
+.box-title1 {
+  font-size: 12px;
+}
+.box1 p {
+  margin: 0; 
+  padding: 0;
+}
+.box2 {
+  position: relative;
+  margin: 1em 0;
+  padding: 1.5em 1em;
+  border: solid 1.5px #BC9692;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0 auto 60px;
+}
+.box2 .box-title2 {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  background: #FFF;
+  color: #BC9692;
+  font-weight: bold;
+}
+.box-title2 {
+  font-size: 12px;
+}
+.box2 p {
+  margin: 0; 
+  padding: 0;
+}
+.box3 {
+  position: relative;
+  margin: 2em 0;
+  padding: 1.5em 1em;
+  border: solid 1.5px #927a6b;
+  border-radius: 8px;
+  width: 100%;
+  margin: 0 auto 60px;
+}
+.box3 .box-title3 {
+  position: absolute;
+  display: inline-block;
+  top: -13px;
+  left: 10px;
+  padding: 0 9px;
+  line-height: 1;
+  background: #FFF;
+  color: #927a6b;
+  font-weight: bold;
+}
+.box-title3 {
+  font-size: 12px;
+}
+.box3 p {
+  margin: 0; 
+  padding: 0;
+}
+.box4 {
+  margin: 2em 0;
+  padding:3em 1em;/*内側余白*/
+  position: relative;
+  padding:1.5em !important;
+  z-index: 0;
+  background-color:#F5F1E8;/*背景色*/
+  width: 100%;
+  margin: 0 auto;
+}
+.box4:before{
+  position: absolute;
+  border: 2px dashed #A7A297;/*破線の太さ・色*/
+  content: '';
+  display: block;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin:4px;
+  z-index: -1;
+  border-radius:10px;
+  }
+.music-icon {
+  height: 17px;
+  vertical-align: middle;
+  padding-bottom: 4px;
+}
+#inquiry-id {
+  height: 0px;
+}
+.inquiry {
+  height: 60px;
+  width: 100%;
+  padding: 21px 60px;
+  font-size: 16px;
+  background-color: #d6bcab;
+  color: white;
+}
+.inquiry-text {
+  width: 100%;
+  margin: 0 auto;
+}
+.inquiry-area {
+  padding: 60px;
+}
+.inquiry-guide {
+  margin-bottom:60px;
+}
+.method {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+.line {
+  padding: 1em 0em;
+  margin: 0;
+  font-weight: bold;
+  color: #06c755;/*文字色*/
+  background: #FFF;
+  border: solid 1.5px #06c755;/*線*/
+  border-radius: 10px;/*角の丸み*/
+  width: 100%;
+  margin-right: 200px;
+}
+.line p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+}
+.phone {
+  padding: 1em 0em;
+  margin: 2em 0 0;
+  font-weight: bold;
+  color: #BC9692;/*文字色*/
+  background: #FFF;
+  border: solid 1.5px #BC9692;/*線*/
+  border-radius: 10px;/*角の丸み*/
+  width: 100%;
+}
+.phone p {
+  margin: 0; 
+  padding: 0;
+  text-align: center;
+  font-size: 12px;
+}
+p.number {
+  font-size: 22px;
+  text-decoration: line-through #E57F75;
+}
+.line-qr {
+  height: 150px;
+  width: 150px;
+}
+}
+/*フッターのCSS*/
+.footer {
+  height: 60px;
+  width: 100vw;
+  border-top: 1px solid #CCCCCC;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 11px;
+  padding: 0 20px;
+  background-color: #927a6b;
+  color: white;
+}
+.footer-address {
+  margin-right: 0px;
+  font-size: 11px;
 }
