@@ -32,9 +32,9 @@
 }
 .piano {
   position:absolute;
-  right: 71px;
-  bottom: -30px;
-  height: 380px;
+  right: 65px;
+  bottom: -65px;
+  height: 320px;
   transform: rotate( 18deg );
 }
 .header {
@@ -461,22 +461,25 @@
   height: 200px;
   width: 200px;
 }
+.p-c-space {
+  display: none;
+}
 @media screen and (max-width: 480px){
 
 /*ヘッダーのCSS*/
 .logo {
-  font-size: 15px;
+  font-size: 14px;
 }
 .heart-button {
   display: flex;
 }
 .logo1 {
-  font-size: 14.5px;
+  font-size: 13px;
   padding-left: 0px;
   padding-bottom: 0px;
   letter-spacing: 0.5px;
   margin-right: 6px;
-  margin-top: 2px;
+  margin-top: 3px;
   padding-top: 0px;
 }
 .logo2 {
@@ -498,8 +501,9 @@
   top: 0;
   left: 0;
   z-index: 1;
-  padding-left: 60px;
+  padding-left: 30px;
   box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .5);
+  padding-top: 5px;
 }
 /* ハートの共通スタイル */
 .heart-button::before,
@@ -551,10 +555,10 @@
   right: 18px;
   bottom: 14px;
   transform: rotate( 18deg );
-  height: 150px;
+  height: 110px;
 }
 .text-area {
-  padding: 60px;
+  padding: 60px 30px;
   text-align: center;
   display: block;
 }
@@ -577,20 +581,23 @@
 }
 .instructor-area {
   display: block;
-  padding: 60px;
+  padding: 60px 0px;
   width:100%;
   margin: 0 auto;
 }
 .instructor-left {
   width: 180px;
   margin: 0 auto;
+  display: flex;
+  justify-content: center;
 }
 .instructor-img {
-  height: 300px;
-  width: 180px;
+  height: 250px;
+  width: 150px;
   margin-right: 0px;
   margin-left: 0px;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 .instructor-right {
   width: 100%;
@@ -625,14 +632,14 @@
   display: inline-block;
   top: -13px;
   left: 10px;
-  padding: 0 9px;
+  padding: 5px 0 0;
   line-height: 1;
   background: #FFF;
   color: #E57F75;
   font-weight: bold;
 }
 .box-title1 {
-  font-size: 12px;
+  font-size: 11px;
 }
 .box1 p {
   margin: 0; 
@@ -652,7 +659,7 @@
   display: inline-block;
   top: -13px;
   left: 10px;
-  padding: 0 9px;
+  padding: 5px 9px 0;
   line-height: 1;
   background: #FFF;
   color: #BC9692;
@@ -679,7 +686,7 @@
   display: inline-block;
   top: -13px;
   left: 10px;
-  padding: 0 9px;
+  padding: 5px 9px 0;
   line-height: 1;
   background: #FFF;
   color: #927a6b;
@@ -726,7 +733,11 @@
 .inquiry {
   height: 60px;
   width: 100%;
-  padding: 21px 60px;
+  line-height: 60px;
+  text-align: center;
+  text-align: left;
+  padding: 0px;
+  padding-left: 60px;
   font-size: 16px;
   background-color: #d6bcab;
   color: white;
@@ -736,10 +747,11 @@
   margin: 0 auto;
 }
 .inquiry-area {
-  padding: 60px;
+  padding: 30px;
 }
 .inquiry-guide {
-  margin-bottom:60px;
+  margin-bottom: 50px;
+  margin-top: 20px;
 }
 .method {
   display: block;
@@ -755,7 +767,7 @@
   border: solid 1.5px #06c755;/*線*/
   border-radius: 10px;/*角の丸み*/
   width: 100%;
-  margin-right: 200px;
+  margin-right: 0px;
 }
 .line p {
   margin: 0;
@@ -787,21 +799,27 @@ p.number {
   height: 150px;
   width: 150px;
 }
+.p-c-space {
+  display: block;
 }
-/*フッターのCSS*/
 .footer {
   height: 60px;
   width: 100vw;
   border-top: 1px solid #CCCCCC;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  font-size: 11px;
-  padding: 0 20px;
+  font-size: 10px;
+  padding: 0px;
   background-color: #927a6b;
   color: white;
 }
 .footer-address {
+  font-size: 10px;
   margin-right: 0px;
-  font-size: 11px;
+  display: none;
+}
+.t-space {
+  display: none;
+}
 }
